@@ -15,22 +15,11 @@
     return nil;
 }
 
--(void)setMads_:(id)value
-{
-    
-    UISearchBar *search = [self searchBar];
-    NSUInteger numViews = [[search subviews] count];
-    for(int i = 0; i < numViews; i++) {
-        NSString *className = NSStringFromClass([[[search subviews] objectAtIndex:i] class]);
-        NSLog(@"%@", className);
-    }
-}
-
-/* 
+/************************** 
  
  NEW EXTENDED SEARCHBAR API
  
- */
+ **************************/
 -(void)setFont_:(id)fontValue
 {
     UIFont *font = nil;
