@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+apiversion: 2
+description: Extending the SearchBar UI component.
+author: Mads Møller
+license: MIT
+copyright: Napp
+
+
+# these should not be edited
+name: nappsearchbar
+moduleid: dk.napp.searchbar
+guid: c2bff89f-a476-44ad-bfde-b9ab3b1b47da
+platform: iphone
+minsdk: 2.1.4.GA
