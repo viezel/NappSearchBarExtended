@@ -5,7 +5,7 @@
 The NappSearchBarExtended Module extends the Appcelerator Titanium Mobile framework with additional functionality.
 The TiUISearchBar has limited styling capabilities and this module extends it. 
 
-![NappSearchBarExtended](https://github.com/viezel/NappSearchBarExtended/blob/master/documentation/image.png)
+![NappSearchBarExtended](https://raw.github.com/viezel/NappSearchBarExtended/master/documentation/image.png)
 
 The module is licensed under the MIT license.
 
