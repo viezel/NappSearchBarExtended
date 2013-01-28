@@ -15,7 +15,7 @@ The module is licensed under the MIT license.
 Simply add the following lines to your `tiapp.xml` file:
     
     <modules>
-        <module version="1.0" platform="iphone">dk.napp.searchbar</module> 
+        <module version="1.1" platform="iphone">dk.napp.searchbar</module> 
     </modules>
 
 
@@ -46,6 +46,20 @@ Use `backgroundColor` or `backgroundGradient` to get a custom searchBar view res
 ### disableSearchIcon
 Remove the default search icon in the left side of the textfield. 
 
+### setAppearance
+Set the keyboard style.
+
+
+## Changelog
+
+
+**v1.1**
+setAppearance added. 
+
+**v1.0**
+Initial implementation. 
+
+
 ## Author
 
 **Mads Møller**  
@@ -53,9 +67,16 @@ web: http://www.napp.dk
 email: mm@napp.dk  
 twitter: @nappdev  
 
+
+## Contributors
+
+**Daniel Tamas**  
+twitter: @dan_tamas
+
+
 ## License
 
-    Copyright (c) 2010-2012 Napp
+    Copyright (c) 2010-2013 Napp
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
