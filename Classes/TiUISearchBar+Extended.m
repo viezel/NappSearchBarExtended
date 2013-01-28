@@ -117,4 +117,10 @@
     }
 }
 
+-(void)setAppearance_:(id)value
+{
+    UITextField *searchTextField = [self searchTextField];
+	[searchTextField setKeyboardAppearance:[TiUtils intValue:value]];
+}
+
 @end

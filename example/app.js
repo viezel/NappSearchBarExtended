@@ -20,6 +20,7 @@ if (Ti.Platform.name == 'iPhone OS'){
 				fontFamily:"Georgia"
 			}
 		},
+		appearance:Titanium.UI.KEYBOARD_APPEARANCE_ALERT,
 		hintText:"my custom search",
 		barColor:"transparent",
 		color:"red",
